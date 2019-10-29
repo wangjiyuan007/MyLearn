@@ -5,7 +5,7 @@ import java.sql.*;
 public class mysqlConnector {
     public static void main(String[] args){
         //声明connection对象
-        Connection conn;
+        Connection conn = null;
         //驱动程序名
         String driver = "com.mysql.cj.jdbc.Driver";
         //url指向要访问的数据库名

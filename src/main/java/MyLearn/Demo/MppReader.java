@@ -22,11 +22,11 @@ import java.util.List;
  **/
 public class MppReader {
     public static void main(String[] args) {
-        List<TaskInfo> taskInfoList = readFile();
+        List<TaskInfo> taskInfoList = readMppFile();
         System.out.println(taskInfoList);
     }
 
-    public static List<TaskInfo> readFile(){
+    public static List<TaskInfo> readMppFile(){
 
         List<TaskInfo> taskList = new ArrayList<>();
         try{
